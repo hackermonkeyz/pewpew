@@ -41,7 +41,7 @@ def use_keys(element,sometext):
 
 def grab_xpath():
     uname_xpath = input("Enter USERNAME field xpath:")
-
+    pwd_xpath = input("Enter PASSWORD field xpath:")
 
 
 
