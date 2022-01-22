@@ -69,7 +69,7 @@ def automate_keyboard(url,proxy,usersfile,password,delay,pause,resolution,xpath_
             waitforit(delay)
                         
             uname = driver.find_element_by_xpath(uname_xpath)
-
+            pwd = driver.find_element_by_xpath(pwd_xpath)
 
 
 
