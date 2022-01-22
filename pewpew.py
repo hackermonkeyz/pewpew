@@ -122,7 +122,7 @@ if __name__ == "__main__":
     if args.file:
         xpath_file = args.file
     else:
-
+        xpath_file = ""
 
 
 
