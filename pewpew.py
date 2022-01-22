@@ -17,7 +17,7 @@ def create_driver(proxyaddr, user, password, resolution):
         "proxyType": "manual"
     }
 
-
+    chrome_options = webdriver.ChromeOptions()
 
 
 
