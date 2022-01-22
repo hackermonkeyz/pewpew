@@ -108,7 +108,7 @@ if __name__ == "__main__":
                         help="Proxy IP:PORT (127.0.0.1:8080)")
     required.add_argument("-u", "--users", type=str,required=True,
                         help="List of users file to spray with")
-
+    required.add_argument("--password", type=str,required=True,
 
 
 
