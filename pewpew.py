@@ -112,7 +112,7 @@ if __name__ == "__main__":
                         help="Password to spray with")
     
     optional = parser.add_argument_group("optional arguments")
-
+    optional.add_argument("-r", "--resolution", type=str, help="Specify resolution (1920,1080), (DEFAULT:1200,1080)", default="1200,1080", required=False)
 
 
 
