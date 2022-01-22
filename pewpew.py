@@ -13,7 +13,7 @@ def create_driver(proxyaddr, user, password, resolution):
     capability['proxy'] = {
         "httpProxy": proxyaddr,
         "ftpProxy": proxyaddr,
-
+        "sslProxy": proxyaddr,
 
 
 
