@@ -121,7 +121,7 @@ if __name__ == "__main__":
     print("	Make sure your proxy is running...")
     if args.file:
         xpath_file = args.file
-
+    else:
 
 
 
