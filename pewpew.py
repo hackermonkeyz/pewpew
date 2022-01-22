@@ -67,7 +67,7 @@ def automate_keyboard(url,proxy,usersfile,password,delay,pause,resolution,xpath_
         for user in users:
             driver.get(url)
             waitforit(delay)
-
+                        
 
 
 
