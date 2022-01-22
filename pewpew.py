@@ -105,7 +105,7 @@ if __name__ == "__main__":
     required.add_argument("-t", "--url", type=str,required=True,
                     help="Target URL (https://example.com/signin")
     required.add_argument("-p", "--proxy", type=str,required=True,
-
+                        help="Proxy IP:PORT (127.0.0.1:8080)")
 
 
 
