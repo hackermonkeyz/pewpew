@@ -89,7 +89,7 @@ def automate_keyboard(url,proxy,usersfile,password,delay,pause,resolution,xpath_
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="""
             
-
+            A Selenium password spraying script that accepts XPATHs as input on launch.
 
 
 
