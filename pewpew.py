@@ -63,7 +63,7 @@ def automate_keyboard(url,proxy,usersfile,password,delay,pause,resolution,xpath_
     driver = create_driver(proxy,resolution)
 
     with open(usersfile, 'r') as f:
-
+        users = [line.rstrip() for line in f]
 
 
 
