@@ -96,7 +96,7 @@ if __name__ == "__main__":
                             .pewpew.py -t "https://www.example.com/login" -p "127.0.0.1:8080" -u users.txt --password Autumn2020! -r 1920,1080
                             .pewpew.py -t "https://www.example.com/login" -p "127.0.0.1:8080" -u users.txt --password Autumn2020! -d 5 -s 2
 
-
+            Review README.md
 
 
 
