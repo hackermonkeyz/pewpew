@@ -19,7 +19,7 @@ def create_driver(proxyaddr, user, password, resolution):
 
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument("--incognito")
-
+    chrome_options.add_argument('ignore-certificate-errors')
 
 
 
