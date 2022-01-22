@@ -29,7 +29,7 @@ def create_driver(proxyaddr, user, password, resolution):
 def waitforit(scale=1):
     sleepnumoffset = random.random()
     offset = sleepnumoffset + scale
-
+    time.sleep(offset)
 
 
 
