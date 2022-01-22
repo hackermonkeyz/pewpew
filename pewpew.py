@@ -46,7 +46,7 @@ def grab_xpath():
     return uname_xpath,pwd_xpath,submit_xpath
 
 def load_xpaths(xpath_file):
-
+    f = open( xpath_file, "r" )
 
 
 
