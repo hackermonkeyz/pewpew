@@ -9,7 +9,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 def create_driver(proxyaddr, user, password, resolution):
         
-
+    capability = webdriver.DesiredCapabilities.CHROME
 
 
 
