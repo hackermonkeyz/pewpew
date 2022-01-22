@@ -9,13 +9,21 @@ from selenium.common.exceptions import NoSuchElementException
 
 def create_driver(proxyaddr, user, password, resolution):
         
+    proxy = {'address': proxyaddr,
+         'username': 'bubbles',
+         'password_token': 'bW9ua2V5Q1RGezh2ZnZ3ZjNrYXc0dnhjejQxZDc4dnp4cmx0djczY3cwfQ==',
+         }
+         
     capability = webdriver.DesiredCapabilities.CHROME
     capability['proxy'] = {
-        "httpProxy": proxyaddr,
-        "ftpProxy": proxyaddr,
-        "sslProxy": proxyaddr,
+        "httpProxy": proxy['address'],
+        "ftpProxy": proxy['address'],
+        "sslProxy": proxy['address'],
         "proxyType": "manual"
     }
+
+    capability['proxy']['socksUsername'] = proxy['username']
+    capability['proxy']['socksPassword'] = proxy['password']
 
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument("--incognito")
