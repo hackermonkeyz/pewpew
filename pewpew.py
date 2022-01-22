@@ -37,7 +37,7 @@ def use_keys(element,sometext):
         jitter = round(random.uniform(0.025, 0.1), 10)
         time.sleep(jitter)
         element.send_keys(key)
-
+  
 
 
 
