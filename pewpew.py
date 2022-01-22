@@ -33,7 +33,7 @@ def waitforit(scale=1):
 
 
 def use_keys(element,sometext):
-
+    for key in sometext:
 
 
 
