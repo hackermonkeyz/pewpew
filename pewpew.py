@@ -60,7 +60,7 @@ def automate_keyboard(url,proxy,usersfile,password,delay,pause,resolution,xpath_
     else:
         uname_xpath,pwd_xpath,submit_xpath = grab_xpath()
         
-
+    driver = create_driver(proxy,resolution)
 
 
 
