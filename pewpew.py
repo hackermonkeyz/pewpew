@@ -22,7 +22,7 @@ def create_driver(proxyaddr, user, password, resolution):
     chrome_options.add_argument('ignore-certificate-errors')
     chrome_options.add_argument("--window-size="+resolution)
     PATH = "C:\Users\bubbles\pathto\chromedriver.exe"
-
+    chrome_driver = webdriver.Chrome(executable_path=PATH,options=chrome_options,desired_capabilities=capability)
 
 
 
