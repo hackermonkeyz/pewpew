@@ -98,7 +98,7 @@ if __name__ == "__main__":
 
             Review README.md
                                     """,
-
+                usage='%(prog)s -t {URL} -p {PROXY} -u {PATHTOUSERSFILE} --password {PASSWORD}',
 
 
 
