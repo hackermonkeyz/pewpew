@@ -43,7 +43,7 @@ def grab_xpath():
     uname_xpath = input("Enter USERNAME field xpath:")
     pwd_xpath = input("Enter PASSWORD field xpath:")
     submit_xpath = input("Enter SUBMIT button xpath:")
-
+    return uname_xpath,pwd_xpath,submit_xpath
 
 
 
