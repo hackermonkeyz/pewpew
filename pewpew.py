@@ -51,7 +51,7 @@ def load_xpaths(xpath_file):
     for line in f:
         xpaths.append(line)
     f.close() 
-
+    return xpaths[0],xpaths[1],xpaths[2]
 
 
 
