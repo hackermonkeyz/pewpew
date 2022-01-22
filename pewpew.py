@@ -74,7 +74,7 @@ def automate_keyboard(url,proxy,usersfile,password,delay,pause,resolution,xpath_
             
             use_keys(uname,user)
             waitforit(pause)
-
+            use_keys(pwd,password)
 
 
 
