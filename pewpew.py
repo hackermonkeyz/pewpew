@@ -59,7 +59,7 @@ def automate_keyboard(url,proxy,usersfile,password,delay,pause,resolution,xpath_
         uname_xpath,pwd_xpath,submit_xpath = load_xpaths(xpath_file)
     else:
         uname_xpath,pwd_xpath,submit_xpath = grab_xpath()
-
+        
 
 
 
