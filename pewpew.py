@@ -117,7 +117,7 @@ if __name__ == "__main__":
     optional.add_argument("-s", "--pause", type=int, help="Seeded PAUSE between pewpew's keypresses (DEFAULT:1)", default=1, required=False)
     optional.add_argument("-f", "--file", type=str, help="Read XPATHs from file instead of inputing to prompt", required=False)
 
-
+    args = parser.parse_args()
 
 
 
