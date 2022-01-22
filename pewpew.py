@@ -124,7 +124,7 @@ if __name__ == "__main__":
     else:
         xpath_file = ""
 
-
+    automate_keyboard(args.url,args.proxy,args.users,args.password,args.delay,args.pause,args.resolution,xpath_file)
 
 
 
