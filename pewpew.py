@@ -111,7 +111,7 @@ if __name__ == "__main__":
     required.add_argument("--password", type=str,required=True,
                         help="Password to spray with")
     
-
+    optional = parser.add_argument_group("optional arguments")
 
 
 
