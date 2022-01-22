@@ -35,7 +35,7 @@ def waitforit(scale=1):
 def use_keys(element,sometext):
     for key in sometext:
         jitter = round(random.uniform(0.025, 0.1), 10)
-
+        time.sleep(jitter)
 
 
 
