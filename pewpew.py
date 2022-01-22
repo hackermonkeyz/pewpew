@@ -114,7 +114,7 @@ if __name__ == "__main__":
     optional = parser.add_argument_group("optional arguments")
     optional.add_argument("-r", "--resolution", type=str, help="Specify resolution (1920,1080), (DEFAULT:1200,1080)", default="1200,1080", required=False)
     optional.add_argument("-d", "--delay", type=int, help="Seeded DELAY between initial request & pewpew's first instruction (DEFAULT:5)", default=5, required=False)
-
+    optional.add_argument("-s", "--pause", type=int, help="Seeded PAUSE between pewpew's keypresses (DEFAULT:1)", default=1, required=False)
 
 
 
