@@ -91,7 +91,7 @@ if __name__ == "__main__":
             
             A Selenium password spraying script that accepts XPATHs as input on launch.
 
-
+            Example usage:  .pewpew.py -t "https://www.example.com/login" -p "127.0.0.1:8080" -u users.txt --password Autumn2020!
 
 
 
