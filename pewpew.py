@@ -103,7 +103,7 @@ if __name__ == "__main__":
 
     required = parser.add_argument_group('required arguments')
     required.add_argument("-t", "--url", type=str,required=True,
-
+                    help="Target URL (https://example.com/signin")
 
 
 
