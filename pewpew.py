@@ -118,7 +118,7 @@ if __name__ == "__main__":
     optional.add_argument("-f", "--file", type=str, help="Read XPATHs from file instead of inputing to prompt", required=False)
 
     args = parser.parse_args()
-
+    print("	Make sure your proxy is running...")
 
 
 
