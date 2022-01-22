@@ -4,7 +4,7 @@ pewpew: selenium spraying script for all them crazy m0nkeys
 import argparse,os,sys,random,time
 from argparse import RawTextHelpFormatter
 from selenium import webdriver
-
+from selenium.common.exceptions import NoSuchElementException
 
 
 
