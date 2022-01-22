@@ -53,7 +53,7 @@ def load_xpaths(xpath_file):
     f.close() 
     return xpaths[0],xpaths[1],xpaths[2]
 
-
+def automate_keyboard(url,proxy,usersfile,password,delay,pause,resolution,xpath_file):
 
 
 
