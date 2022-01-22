@@ -73,7 +73,7 @@ def automate_keyboard(url,proxy,usersfile,password,delay,pause,resolution,xpath_
             submit = driver.find_element_by_xpath(submit_xpath)
             
             use_keys(uname,user)
-
+            waitforit(pause)
 
 
 
