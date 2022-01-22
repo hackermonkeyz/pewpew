@@ -21,7 +21,7 @@ def create_driver(proxyaddr, user, password, resolution):
     chrome_options.add_argument("--incognito")
     chrome_options.add_argument('ignore-certificate-errors')
     chrome_options.add_argument("--window-size="+resolution)
-
+    PATH = "C:\Users\bubbles\pathto\chromedriver.exe"
 
 
 
