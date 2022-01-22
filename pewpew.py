@@ -86,7 +86,7 @@ def automate_keyboard(url,proxy,usersfile,password,delay,pause,resolution,xpath_
             driver.delete_all_cookies()
 
 
-
+if __name__ == "__main__":
 
 
 
