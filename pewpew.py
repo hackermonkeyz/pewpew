@@ -83,7 +83,7 @@ def automate_keyboard(url,proxy,usersfile,password,delay,pause,resolution,xpath_
             proceed_jitter = round(random.uniform(1, 1.5), 10)
             time.sleep(proceed_jitter)
             waitforit(delay)
-
+            driver.delete_all_cookies()
 
 
 
