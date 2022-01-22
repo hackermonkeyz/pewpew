@@ -102,7 +102,7 @@ if __name__ == "__main__":
                 formatter_class=RawTextHelpFormatter)
 
     required = parser.add_argument_group('required arguments')
-
+    required.add_argument("-t", "--url", type=str,required=True,
 
 
 
