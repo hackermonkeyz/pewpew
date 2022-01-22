@@ -12,7 +12,7 @@ def create_driver(proxyaddr, user, password, resolution):
     capability = webdriver.DesiredCapabilities.CHROME
     capability['proxy'] = {
         "httpProxy": proxyaddr,
-
+        "ftpProxy": proxyaddr,
 
 
 
