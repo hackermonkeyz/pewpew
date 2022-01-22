@@ -15,7 +15,7 @@ def create_driver(proxyaddr, user, password, resolution):
         "ftpProxy": proxyaddr,
         "sslProxy": proxyaddr,
         "proxyType": "manual"
-
+    }
 
 
 
