@@ -80,7 +80,7 @@ def automate_keyboard(url,proxy,usersfile,password,delay,pause,resolution,xpath_
             time.sleep(click_jitter)
             submit.click()
 
-
+            proceed_jitter = round(random.uniform(1, 1.5), 10)
 
 
 
