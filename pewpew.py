@@ -109,7 +109,7 @@ if __name__ == "__main__":
     required.add_argument("-u", "--users", type=str,required=True,
                         help="List of users file to spray with")
     required.add_argument("--password", type=str,required=True,
-
+                        help="Password to spray with")
 
 
 
