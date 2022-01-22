@@ -48,7 +48,7 @@ def grab_xpath():
 def load_xpaths(xpath_file):
     f = open( xpath_file, "r" )
     xpaths = []
-
+    for line in f:
 
 
 
